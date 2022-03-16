@@ -9,7 +9,12 @@ public class ReaddataTest {
 	{
 		String BROSWER = System.getProperty("browser");
 		System.out.println(BROSWER);
-		System.out.println("done");
+		System.out.println(" Firefox launched");
+		
+		String URL = System.getProperty("url");
+		System.out.println(URL);
+		System.out.println("https:Facebook.com");
+		
 		
 	}
 	
